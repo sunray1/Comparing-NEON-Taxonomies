@@ -1,0 +1,41 @@
+Comparison Report for Group: PLANT
+--- Overview ---
+Canonical Ranks used for lineage: kingdom, phylum, class, order, family, genus, species, subspecies, variety, form
+Loading NEON HQ Taxonomy from: data/03_accepted_taxonomies/PLANT.neonhq.accepted.csv
+Total records in NEON HQ Taxonomy: 51263
+Loading Biorepo Taxonomy from: data/03_accepted_taxonomies/PLANT.biorepo.accepted.csv
+Total records in Biorepo Taxonomy: 44285
+
+--- Lineage Edge Comparison (Jaccard Index) ---
+Unique edges found in NEON HQ Taxonomy: 37415
+Unique edges found in Biorepo Taxonomy: 45011
+
+Overall Jaccard Index for Lineage Edges: 0.6523
+Number of common edges (intersection): 32540
+Total unique edges (union): 49886
+NEON HQ Edges Matched Rate: 0.8697 (32540/37415)
+Biorepo Edges Matched Rate: 0.7229 (32540/45011)
+
+--- Examples of Edges Unique to NEON HQ Taxonomy (Top 10) ---
+  1. ('class', 'ascomycetes', 'family', 'dactylosporaceae')
+  2. ('class', 'ascomycetes', 'family', 'mastodiaceae')
+  3. ('class', 'ascomycetes', 'family', 'melaspileaceae')
+  4. ('class', 'ascomycetes', 'family', 'phlyctidaceae')
+  5. ('class', 'ascomycetes', 'family', 'protothelenellaceae')
+  6. ('class', 'ascomycetes', 'family', 'thelenellaceae')
+  7. ('class', 'ascomycetes', 'family', 'thrombiaceae')
+  8. ('class', 'ascomycetes', 'order', 'arthoniales')
+  9. ('class', 'ascomycetes', 'order', 'caliciales')
+  10. ('class', 'ascomycetes', 'order', 'capnodiales')
+
+--- Examples of Edges Unique to Biorepo Taxonomy (Top 10) ---
+  1. ('class', 'agaricomycetes', 'order', 'agaricales')
+  2. ('class', 'agaricomycetes', 'order', 'atheliales')
+  3. ('class', 'agaricomycetes', 'order', 'cantharellales')
+  4. ('class', 'agaricomycetes', 'order', 'corticiales')
+  5. ('class', 'agaricomycetes', 'order', 'geastrales')
+  6. ('class', 'agaricomycetes', 'order', 'polyporales')
+  7. ('class', 'agaricostilbomycetes', 'order', 'agaricostilbales')
+  8. ('class', 'anthocerotopsida', 'order', 'dendrocerotales')
+  9. ('class', 'anthocerotopsida', 'order', 'notothyladales')
+  10. ('class', 'anthocerotopsida', 'order', 'phymatocerotales')

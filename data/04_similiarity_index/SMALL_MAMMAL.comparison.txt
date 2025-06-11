@@ -1,0 +1,37 @@
+Comparison Report for Group: SMALL_MAMMAL
+--- Overview ---
+Canonical Ranks used for lineage: kingdom, phylum, class, order, family, genus, species, subspecies, variety, form
+Loading NEON HQ Taxonomy from: data/03_accepted_taxonomies/SMALL_MAMMAL.neonhq.accepted.csv
+Total records in NEON HQ Taxonomy: 391
+Loading Biorepo Taxonomy from: data/03_accepted_taxonomies/SMALL_MAMMAL.biorepo.accepted.csv
+Total records in Biorepo Taxonomy: 337
+
+--- Lineage Edge Comparison (Jaccard Index) ---
+Unique edges found in NEON HQ Taxonomy: 452
+Unique edges found in Biorepo Taxonomy: 383
+
+Overall Jaccard Index for Lineage Edges: 0.8231
+Number of common edges (intersection): 377
+Total unique edges (union): 458
+NEON HQ Edges Matched Rate: 0.8341 (377/452)
+Biorepo Edges Matched Rate: 0.9843 (377/383)
+
+--- Examples of Edges Unique to NEON HQ Taxonomy (Top 10) ---
+  1. ('family', 'cricetidae', 'genus', 'alexandromys')
+  2. ('family', 'cricetidae', 'genus', 'myodes')
+  3. ('family', 'dipodidae', 'genus', 'napaeozapus')
+  4. ('family', 'dipodidae', 'genus', 'zapus')
+  5. ('genus', 'alexandromys', 'species', 'alexandromys oeconomus')
+  6. ('genus', 'chaetodipus', 'species', 'chaetodipus eremicus/intermedius')
+  7. ('genus', 'chaetodipus', 'species', 'chaetodipus eremicus/penicillatus')
+  8. ('genus', 'chaetodipus', 'species', 'chaetodipus intermedius/penicillatus')
+  9. ('genus', 'dipodomys', 'species', 'dipodomys ordii/microps')
+  10. ('genus', 'myodes', 'species', 'myodes californicus')
+
+--- Examples of Edges Unique to Biorepo Taxonomy (Top 6) ---
+  1. ('family', 'zapodidae', 'genus', 'napaeozapus')
+  2. ('family', 'zapodidae', 'genus', 'zapus')
+  3. ('genus', 'sorex', 'species', 'sorex minutissimus yukonicus')
+  4. ('genus', 'spermophilus', 'species', 'spermophilus tridecemlineatus')
+  5. ('order', 'rodentia', 'family', 'zapodidae')
+  6. ('species', 'spermophilus tridecemlineatus', 'subspecies', 'spermophilus tridecemlineatus monticola')

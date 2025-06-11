@@ -1,0 +1,41 @@
+Comparison Report for Group: MOSQUITO_PATHOGENS
+--- Overview ---
+Canonical Ranks used for lineage: kingdom, phylum, class, order, family, genus, species, subspecies, variety, form
+Loading NEON HQ Taxonomy from: data/03_accepted_taxonomies/MOSQUITO_PATHOGENS.neonhq.accepted.csv
+Total records in NEON HQ Taxonomy: 29
+Loading Biorepo Taxonomy from: data/03_accepted_taxonomies/MOSQUITO_PATHOGENS.biorepo.accepted.csv
+Total records in Biorepo Taxonomy: 21
+
+--- Lineage Edge Comparison (Jaccard Index) ---
+Unique edges found in NEON HQ Taxonomy: 25
+Unique edges found in Biorepo Taxonomy: 31
+
+Overall Jaccard Index for Lineage Edges: 0.0370
+Number of common edges (intersection): 2
+Total unique edges (union): 54
+NEON HQ Edges Matched Rate: 0.0800 (2/25)
+Biorepo Edges Matched Rate: 0.0645 (2/31)
+
+--- Examples of Edges Unique to NEON HQ Taxonomy (Top 10) ---
+  1. ('family', 'bunyaviridae', 'genus', 'orthobunyavirus')
+  2. ('genus', 'alphavirus', 'species', 'alphavirus chikungunya virus')
+  3. ('genus', 'alphavirus', 'species', 'alphavirus eastern equine encephalitis virus')
+  4. ('genus', 'alphavirus', 'species', 'alphavirus everglades virus')
+  5. ('genus', 'alphavirus', 'species', 'alphavirus highlands j virus')
+  6. ('genus', 'alphavirus', 'species', 'alphavirus mayaro virus')
+  7. ('genus', 'alphavirus', 'species', 'alphavirus ross river virus')
+  8. ('genus', 'alphavirus', 'species', 'alphavirus sindbis virus')
+  9. ('genus', 'alphavirus', 'species', 'alphavirus una virus')
+  10. ('genus', 'alphavirus', 'species', 'alphavirus venezuelan equine encephalitis virus')
+
+--- Examples of Edges Unique to Biorepo Taxonomy (Top 10) ---
+  1. ('class', 'alsuviricetes', 'order', 'martellivirales')
+  2. ('class', 'ellioviricetes', 'order', 'bunyavirales')
+  3. ('class', 'flasuviricetes', 'order', 'amarillovirales')
+  4. ('family', 'peribunyaviridae', 'genus', 'orthobunyavirus')
+  5. ('genus', 'alphavirus', 'species', 'chikungunya virus')
+  6. ('genus', 'alphavirus', 'species', 'eastern equine encephalitis virus')
+  7. ('genus', 'alphavirus', 'species', 'everglades virus')
+  8. ('genus', 'alphavirus', 'species', 'highlands j virus')
+  9. ('genus', 'alphavirus', 'species', 'mayaro virus')
+  10. ('genus', 'alphavirus', 'species', 'ross river virus')

@@ -1,0 +1,41 @@
+Comparison Report for Group: BIRD
+--- Overview ---
+Canonical Ranks used for lineage: kingdom, phylum, class, order, family, genus, species, subspecies, variety, form
+Loading NEON HQ Taxonomy from: data/03_accepted_taxonomies/BIRD.neonhq.accepted.csv
+Total records in NEON HQ Taxonomy: 2205
+Loading Biorepo Taxonomy from: data/03_accepted_taxonomies/BIRD.biorepo.accepted.csv
+Total records in Biorepo Taxonomy: 2163
+
+--- Lineage Edge Comparison (Jaccard Index) ---
+Unique edges found in NEON HQ Taxonomy: 3076
+Unique edges found in Biorepo Taxonomy: 3040
+
+Overall Jaccard Index for Lineage Edges: 0.9590
+Number of common edges (intersection): 2994
+Total unique edges (union): 3122
+NEON HQ Edges Matched Rate: 0.9733 (2994/3076)
+Biorepo Edges Matched Rate: 0.9849 (2994/3040)
+
+--- Examples of Edges Unique to NEON HQ Taxonomy (Top 10) ---
+  1. ('class', 'aves', 'order', 'pterocliformes')
+  2. ('class', 'aves', 'order', 'upupiformes')
+  3. ('family', 'ardeidae', 'genus', 'mesophoyx')
+  4. ('family', 'capitonidae', 'genus', 'capito')
+  5. ('family', 'capitonidae', 'genus', 'eubucco')
+  6. ('family', 'cettiidae', 'genus', 'cettia')
+  7. ('family', 'emberizidae', 'genus', 'ammodramus/passerculus')
+  8. ('family', 'emberizidae', 'genus', 'melozone/pipilo')
+  9. ('family', 'hirundinidae', 'genus', 'pygochelidon')
+  10. ('family', 'muscicapidae', 'genus', 'oenanthe')
+
+--- Examples of Edges Unique to Biorepo Taxonomy (Top 10) ---
+  1. ('class', 'aves', 'order', 'bucerotiformes')
+  2. ('class', 'aves', 'order', 'pteroclidiformes')
+  3. ('class', 'magnoliopsida', 'order', 'apiales')
+  4. ('family', 'apiaceae', 'genus', 'oenanthe')
+  5. ('family', 'cardinalidae', 'genus', 'saltator')
+  6. ('family', 'coerebidae', 'genus', 'coereba')
+  7. ('family', 'cotingidae', 'genus', 'laniocera')
+  8. ('family', 'cotingidae', 'genus', 'oxyruncus')
+  9. ('family', 'cotingidae', 'genus', 'pachyramphus')
+  10. ('family', 'cotingidae', 'genus', 'piprites')

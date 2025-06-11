@@ -1,0 +1,41 @@
+Comparison Report for Group: ALGAE
+--- Overview ---
+Canonical Ranks used for lineage: kingdom, phylum, class, order, family, genus, species, subspecies, variety, form
+Loading NEON HQ Taxonomy from: data/03_accepted_taxonomies/ALGAE.neonhq.accepted.csv
+Total records in NEON HQ Taxonomy: 4467
+Loading Biorepo Taxonomy from: data/03_accepted_taxonomies/ALGAE.biorepo.accepted.csv
+Total records in Biorepo Taxonomy: 4008
+
+--- Lineage Edge Comparison (Jaccard Index) ---
+Unique edges found in NEON HQ Taxonomy: 4186
+Unique edges found in Biorepo Taxonomy: 4116
+
+Overall Jaccard Index for Lineage Edges: 0.9089
+Number of common edges (intersection): 3953
+Total unique edges (union): 4349
+NEON HQ Edges Matched Rate: 0.9443 (3953/4186)
+Biorepo Edges Matched Rate: 0.9604 (3953/4116)
+
+--- Examples of Edges Unique to NEON HQ Taxonomy (Top 10) ---
+  1. ('class', 'bacillariophyceae', 'order', 'achnanthales')
+  2. ('class', 'bacillariophyceae', 'order', 'fragilariales')
+  3. ('class', 'chlorophyceae', 'order', 'cladophorales')
+  4. ('class', 'coscinodiscophyceae', 'order', 'thalassiosirales')
+  5. ('class', 'florideophyceae', 'order', 'acrochaetiaceae')
+  6. ('class', 'imbricatea', 'family', 'spongomonadidae')
+  7. ('class', 'myxophyceae', 'order', 'chroococcales')
+  8. ('class', 'myxophyceae', 'order', 'nostocales')
+  9. ('class', 'myxophyceae', 'order', 'oscillatoriales')
+  10. ('class', 'myxophyceae', 'order', 'stigonematales')
+
+--- Examples of Edges Unique to Biorepo Taxonomy (Top 10) ---
+  1. ('class', 'bacillariophyceae', 'family', 'tabellariaceae')
+  2. ('class', 'bacillariophyceae', 'order', 'eunotiales')
+  3. ('class', 'bacillariophyceae', 'order', 'licmophorales')
+  4. ('class', 'choanoflagellatea', 'order', 'choanoflagellida')
+  5. ('class', 'chrysophyceae', 'order', 'chrysocapsales')
+  6. ('class', 'chrysophyceae', 'order', 'chrysosphaerales')
+  7. ('class', 'chrysophyceae', 'order', 'ochromonadales')
+  8. ('class', 'chrysophyceae', 'order', 'synurales')
+  9. ('class', 'cyanophyceae', 'order', 'chroococcales')
+  10. ('class', 'cyanophyceae', 'order', 'oscillatoriales')

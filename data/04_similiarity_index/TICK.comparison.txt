@@ -1,0 +1,25 @@
+Comparison Report for Group: TICK
+--- Overview ---
+Canonical Ranks used for lineage: kingdom, phylum, class, order, family, genus, species, subspecies, variety, form
+Loading NEON HQ Taxonomy from: data/03_accepted_taxonomies/TICK.neonhq.accepted.csv
+Total records in NEON HQ Taxonomy: 92
+Loading Biorepo Taxonomy from: data/03_accepted_taxonomies/TICK.biorepo.accepted.csv
+Total records in Biorepo Taxonomy: 93
+
+--- Lineage Edge Comparison (Jaccard Index) ---
+Unique edges found in NEON HQ Taxonomy: 91
+Unique edges found in Biorepo Taxonomy: 95
+
+Overall Jaccard Index for Lineage Edges: 0.9579
+Number of common edges (intersection): 91
+Total unique edges (union): 95
+NEON HQ Edges Matched Rate: 1.0000 (91/91)
+Biorepo Edges Matched Rate: 0.9579 (91/95)
+
+No edges found unique to NEON HQ Taxonomy.
+
+--- Examples of Edges Unique to Biorepo Taxonomy (Top 4) ---
+  1. ('genus', 'amblyomma', 'species', 'amblyomma goeldii')
+  2. ('genus', 'amblyomma', 'species', 'amblyomma pseudoconcolor')
+  3. ('genus', 'ixodes', 'species', 'ixodes frontalis')
+  4. ('genus', 'ornithodoros', 'species', 'ornithodoros knoxjonesi')

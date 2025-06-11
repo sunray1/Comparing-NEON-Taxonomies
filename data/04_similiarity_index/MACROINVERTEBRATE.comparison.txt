@@ -1,0 +1,41 @@
+Comparison Report for Group: MACROINVERTEBRATE
+--- Overview ---
+Canonical Ranks used for lineage: kingdom, phylum, class, order, family, genus, species, subspecies, variety, form
+Loading NEON HQ Taxonomy from: data/03_accepted_taxonomies/MACROINVERTEBRATE.neonhq.accepted.csv
+Total records in NEON HQ Taxonomy: 21943
+Loading Biorepo Taxonomy from: data/03_accepted_taxonomies/MACROINVERTEBRATE.biorepo.accepted.csv
+Total records in Biorepo Taxonomy: 17222
+
+--- Lineage Edge Comparison (Jaccard Index) ---
+Unique edges found in NEON HQ Taxonomy: 18139
+Unique edges found in Biorepo Taxonomy: 17210
+
+Overall Jaccard Index for Lineage Edges: 0.8446
+Number of common edges (intersection): 16185
+Total unique edges (union): 19164
+NEON HQ Edges Matched Rate: 0.8923 (16185/18139)
+Biorepo Edges Matched Rate: 0.9404 (16185/17210)
+
+--- Examples of Edges Unique to NEON HQ Taxonomy (Top 10) ---
+  1. ('class', 'anopla', 'order', 'heteronemertea')
+  2. ('class', 'anopla', 'order', 'not assigned')
+  3. ('class', 'aphanoneura', 'order', 'aeolosomatida')
+  4. ('class', 'arachnida', 'family', 'hydryphantidae')
+  5. ('class', 'arachnida', 'family', 'stygothrombiidae')
+  6. ('class', 'ascidiacea', 'order', 'enterogona')
+  7. ('class', 'ascidiacea', 'order', 'pleurogona')
+  8. ('class', 'bdelloidea', 'family', 'philodinidae')
+  9. ('class', 'bivalvia', 'order', 'anomalodesmata')
+  10. ('class', 'bivalvia', 'order', 'mytiloida')
+
+--- Examples of Edges Unique to Biorepo Taxonomy (Top 10) ---
+  1. ('class', 'adenophorea', 'order', 'mermithida')
+  2. ('class', 'anthozoa', 'order', 'penicillaria')
+  3. ('class', 'ascidiacea', 'order', 'phlebobranchia')
+  4. ('class', 'ascidiacea', 'order', 'stolidobranchia')
+  5. ('class', 'aves', 'order', 'apodiformes')
+  6. ('class', 'bacillariophyceae', 'family', 'acteonidae')
+  7. ('class', 'bacillariophyceae', 'family', 'aplustridae')
+  8. ('class', 'bacillariophyceae', 'family', 'arenicolidae')
+  9. ('class', 'bacillariophyceae', 'family', 'barentsiidae')
+  10. ('class', 'bacillariophyceae', 'family', 'basterotiidae')

@@ -1,0 +1,2 @@
+('family', 'flaviviridae', 'genus', 'flavivirus')
+('family', 'togaviridae', 'genus', 'alphavirus')

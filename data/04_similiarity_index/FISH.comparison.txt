@@ -1,0 +1,41 @@
+Comparison Report for Group: FISH
+--- Overview ---
+Canonical Ranks used for lineage: kingdom, phylum, class, order, family, genus, species, subspecies, variety, form
+Loading NEON HQ Taxonomy from: data/03_accepted_taxonomies/FISH.neonhq.accepted.csv
+Total records in NEON HQ Taxonomy: 1642
+Loading Biorepo Taxonomy from: data/03_accepted_taxonomies/FISH.biorepo.accepted.csv
+Total records in Biorepo Taxonomy: 1464
+
+--- Lineage Edge Comparison (Jaccard Index) ---
+Unique edges found in NEON HQ Taxonomy: 1432
+Unique edges found in Biorepo Taxonomy: 1477
+
+Overall Jaccard Index for Lineage Edges: 0.9329
+Number of common edges (intersection): 1404
+Total unique edges (union): 1505
+NEON HQ Edges Matched Rate: 0.9804 (1404/1432)
+Biorepo Edges Matched Rate: 0.9506 (1404/1477)
+
+--- Examples of Edges Unique to NEON HQ Taxonomy (Top 10) ---
+  1. ('family', 'cyprinidae', 'genus', 'argyreus')
+  2. ('family', 'cyprinidae', 'genus', 'orthodon')
+  3. ('family', 'pristidae', 'genus', 'squalus')
+  4. ('genus', 'acipenser', 'species', 'acipenser oxyrhynchus')
+  5. ('genus', 'adinia', 'species', 'adinia xenica')
+  6. ('genus', 'agonostomus', 'species', 'agonostomus monticola')
+  7. ('genus', 'cichlasoma', 'species', 'cichlasoma salvini')
+  8. ('genus', 'cichlasoma', 'species', 'cichlasoma urophthalmum')
+  9. ('genus', 'dasyatis', 'species', 'dasyatis sabina')
+  10. ('genus', 'ericymba', 'species', 'ericymba buccata')
+
+--- Examples of Edges Unique to Biorepo Taxonomy (Top 10) ---
+  1. ('class', 'elasmobranchii', 'order', 'rhinopristiformes')
+  2. ('class', 'elasmobranchii', 'order', 'squaliformes')
+  3. ('class', 'insecta', 'order', 'lepidoptera')
+  4. ('class', 'magnoliopsida', 'order', 'cucurbitales')
+  5. ('class', 'magnoliopsida', 'order', 'lamiales')
+  6. ('family', 'cucurbitaceae', 'genus', 'sicydium')
+  7. ('family', 'lamiaceae', 'genus', 'orthodon')
+  8. ('family', 'nymphalidae', 'genus', 'argyreus')
+  9. ('family', 'squalidae', 'genus', 'squalus')
+  10. ('genus', 'cottus', 'species', 'cottus pygmaeus')

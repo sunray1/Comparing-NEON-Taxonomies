@@ -1,0 +1,2 @@
+('genus', 'aedes', 'species', 'aedes amateuri')
+('genus', 'culex', 'species', 'culex inornatus')

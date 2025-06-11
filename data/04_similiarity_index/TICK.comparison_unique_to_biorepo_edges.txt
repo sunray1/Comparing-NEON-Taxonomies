@@ -1,0 +1,4 @@
+('genus', 'amblyomma', 'species', 'amblyomma goeldii')
+('genus', 'amblyomma', 'species', 'amblyomma pseudoconcolor')
+('genus', 'ixodes', 'species', 'ixodes frontalis')
+('genus', 'ornithodoros', 'species', 'ornithodoros knoxjonesi')

@@ -1,0 +1,6 @@
+('family', 'zapodidae', 'genus', 'napaeozapus')
+('family', 'zapodidae', 'genus', 'zapus')
+('genus', 'sorex', 'species', 'sorex minutissimus yukonicus')
+('genus', 'spermophilus', 'species', 'spermophilus tridecemlineatus')
+('order', 'rodentia', 'family', 'zapodidae')
+('species', 'spermophilus tridecemlineatus', 'subspecies', 'spermophilus tridecemlineatus monticola')

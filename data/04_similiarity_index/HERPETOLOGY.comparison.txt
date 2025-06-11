@@ -1,0 +1,41 @@
+Comparison Report for Group: HERPETOLOGY
+--- Overview ---
+Canonical Ranks used for lineage: kingdom, phylum, class, order, family, genus, species, subspecies, variety, form
+Loading NEON HQ Taxonomy from: data/03_accepted_taxonomies/HERPETOLOGY.neonhq.accepted.csv
+Total records in NEON HQ Taxonomy: 1480
+Loading Biorepo Taxonomy from: data/03_accepted_taxonomies/HERPETOLOGY.biorepo.accepted.csv
+Total records in Biorepo Taxonomy: 1470
+
+--- Lineage Edge Comparison (Jaccard Index) ---
+Unique edges found in NEON HQ Taxonomy: 1494
+Unique edges found in Biorepo Taxonomy: 1506
+
+Overall Jaccard Index for Lineage Edges: 0.9218
+Number of common edges (intersection): 1439
+Total unique edges (union): 1561
+NEON HQ Edges Matched Rate: 0.9632 (1439/1494)
+Biorepo Edges Matched Rate: 0.9555 (1439/1506)
+
+--- Examples of Edges Unique to NEON HQ Taxonomy (Top 10) ---
+  1. ('class', 'reptilia', 'order', 'crocodilia')
+  2. ('family', 'anguidae', 'genus', 'diploglossus')
+  3. ('family', 'bufonidae', 'genus', 'ollotis')
+  4. ('family', 'chelydridae', 'genus', 'chelydra')
+  5. ('family', 'colubridae', 'genus', 'borikenophis')
+  6. ('family', 'colubridae', 'genus', 'carphophis')
+  7. ('family', 'colubridae', 'genus', 'clonophis')
+  8. ('family', 'colubridae', 'genus', 'coniophanes')
+  9. ('family', 'colubridae', 'genus', 'contia')
+  10. ('family', 'colubridae', 'genus', 'diadophis')
+
+--- Examples of Edges Unique to Biorepo Taxonomy (Top 10) ---
+  1. ('class', 'bacillariophyceae', 'genus', 'chelydra')
+  2. ('class', 'insecta', 'order', 'coleoptera')
+  3. ('class', 'insecta', 'order', 'lepidoptera')
+  4. ('class', 'magnoliopsida', 'order', 'lamiales')
+  5. ('class', 'reptilia', 'order', 'crocodylia')
+  6. ('family', 'curculionidae', 'genus', 'xenopus')
+  7. ('family', 'dactyloidae', 'genus', 'anolis')
+  8. ('family', 'diploglossidae', 'genus', 'diploglossus')
+  9. ('family', 'dipsadidae', 'genus', 'borikenophis')
+  10. ('family', 'dipsadidae', 'genus', 'carphophis')

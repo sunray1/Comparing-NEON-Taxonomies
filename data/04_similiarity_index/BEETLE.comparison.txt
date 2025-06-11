@@ -1,0 +1,41 @@
+Comparison Report for Group: BEETLE
+--- Overview ---
+Canonical Ranks used for lineage: kingdom, phylum, class, order, family, genus, species, subspecies, variety, form
+Loading NEON HQ Taxonomy from: data/03_accepted_taxonomies/BEETLE.neonhq.accepted.csv
+Total records in NEON HQ Taxonomy: 4048
+Loading Biorepo Taxonomy from: data/03_accepted_taxonomies/BEETLE.biorepo.accepted.csv
+Total records in Biorepo Taxonomy: 4095
+
+--- Lineage Edge Comparison (Jaccard Index) ---
+Unique edges found in NEON HQ Taxonomy: 3272
+Unique edges found in Biorepo Taxonomy: 3767
+
+Overall Jaccard Index for Lineage Edges: 0.8226
+Number of common edges (intersection): 3177
+Total unique edges (union): 3862
+NEON HQ Edges Matched Rate: 0.9710 (3177/3272)
+Biorepo Edges Matched Rate: 0.8434 (3177/3767)
+
+--- Examples of Edges Unique to NEON HQ Taxonomy (Top 10) ---
+  1. ('class', 'insecta', 'family', 'carabidae')
+  2. ('family', 'carabidae', 'genus', 'paratachys')
+  3. ('family', 'carabidae', 'genus', 'zuphioides')
+  4. ('genus', 'acupalpus', 'species', 'acupalpus lamprotus')
+  5. ('genus', 'agonum', 'species', 'agonum coptoderoides')
+  6. ('genus', 'agonum', 'species', 'agonum laetificum')
+  7. ('genus', 'agonum', 'species', 'agonum tropicum')
+  8. ('genus', 'apenes', 'species', 'apenes sculpticeps')
+  9. ('genus', 'aspidoglossa', 'species', 'aspidoglossa vulnerata')
+  10. ('genus', 'bembidion', 'species', 'bembidion brownorum')
+
+--- Examples of Edges Unique to Biorepo Taxonomy (Top 10) ---
+  1. ('family', 'carabidae', 'genus', 'acalathus')
+  2. ('family', 'carabidae', 'genus', 'calopachys')
+  3. ('family', 'carabidae', 'genus', 'cosnania')
+  4. ('family', 'carabidae', 'genus', 'loxandrus')
+  5. ('family', 'carabidae', 'genus', 'stolonis')
+  6. ('genus', 'acalathus', 'species', 'acalathus advena')
+  7. ('genus', 'agonum', 'species', 'agonum ericeti')
+  8. ('genus', 'agonum', 'species', 'agonum variolatum')
+  9. ('genus', 'apenes', 'species', 'apenes pallipes')
+  10. ('genus', 'asaphidion', 'species', 'asaphidion flavipes')

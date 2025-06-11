@@ -1,0 +1,33 @@
+Comparison Report for Group: MOSQUITO
+--- Overview ---
+Canonical Ranks used for lineage: kingdom, phylum, class, order, family, genus, species, subspecies, variety, form
+Loading NEON HQ Taxonomy from: data/03_accepted_taxonomies/MOSQUITO.neonhq.accepted.csv
+Total records in NEON HQ Taxonomy: 265
+Loading Biorepo Taxonomy from: data/03_accepted_taxonomies/MOSQUITO.biorepo.accepted.csv
+Total records in Biorepo Taxonomy: 265
+
+--- Lineage Edge Comparison (Jaccard Index) ---
+Unique edges found in NEON HQ Taxonomy: 237
+Unique edges found in Biorepo Taxonomy: 259
+
+Overall Jaccard Index for Lineage Edges: 0.9004
+Number of common edges (intersection): 235
+Total unique edges (union): 261
+NEON HQ Edges Matched Rate: 0.9916 (235/237)
+Biorepo Edges Matched Rate: 0.9073 (235/259)
+
+--- Examples of Edges Unique to NEON HQ Taxonomy (Top 2) ---
+  1. ('genus', 'aedes', 'species', 'aedes amateuri')
+  2. ('genus', 'culex', 'species', 'culex inornatus')
+
+--- Examples of Edges Unique to Biorepo Taxonomy (Top 10) ---
+  1. ('genus', 'culex', 'species', 'culex pallipes')
+  2. ('genus', 'ochlerotatus', 'species', 'ochlerotatus spencerii')
+  3. ('genus', 'uranotaenia', 'species', 'uranotaenia syntheta')
+  4. ('species', 'aedes aegypti', 'subspecies', 'aedes aegypti aegypti')
+  5. ('species', 'aedes aegypti', 'subspecies', 'aedes aegypti formosus')
+  6. ('species', 'aedes canadensis', 'subspecies', 'aedes canadensis canadensis')
+  7. ('species', 'aedes canadensis', 'subspecies', 'aedes canadensis mathesoni')
+  8. ('species', 'aedes caspius', 'subspecies', 'aedes caspius caspius')
+  9. ('species', 'aedes fulvus', 'subspecies', 'aedes fulvus fulvus')
+  10. ('species', 'aedes fulvus', 'subspecies', 'aedes fulvus pallens')

@@ -82,7 +82,7 @@ rework_taxonomies_accepted: generate_data $(BIOREPO_TAXSTATUS_FILE)
 
 
 # --- Step 04: Create Jaccard similarity index ---
-similiarity_index: dirs
+similiarity_index: rework_taxonomies_accepted
 	@echo "--- Step 04: Creating Jaccard Similarity Index ---"
 	rm $(SIMILARITY_INDEX_DIR)/jaccard_summary.csv;
 	@for group in $(GROUPS); do \
